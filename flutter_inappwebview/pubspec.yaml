@@ -19,7 +19,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_inappwebview_platform_interface: 
-    path: ../flutter_inappwebview_platform_interface
+    git:
+      url: https://github.com/abdulkhira1/flutter_inappwebview.git
+      path: flutter_inappwebview_platform_interface
   flutter_inappwebview_android: 
     path: ../flutter_inappwebview_android
   flutter_inappwebview_ios: 
